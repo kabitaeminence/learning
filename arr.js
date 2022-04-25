@@ -1,7 +1,14 @@
-// const arr=[{name:"Kabita",rollno:1,place:"mohali"},{name:"salim",rollno:"2",place:"chandigarh"}]
+const arr=[{name:"Kabita",rollno:1,place:"mohali"},{name:"salim",rollno:"2",place:"chandigarh"}]
 
 // const str=arr.map((user,i)=>{
 //     return `My name is ${user.name}. My rollno is ${user.rollno}. I am leaving in ${user.place}`
+// })
+// console.log(str)
+
+// const str=arr.map((value,i)=>{
+//     // return `My name is ${value.name}. My rollno is ${value.rollno}. I am leaving in ${value.place}`
+
+//     str[i].name
 // })
 // console.log(str)
 
@@ -34,20 +41,22 @@
 // console.log(arr)
 // console.log(array)
 
-const str = "340e901b-7172-4ee0-8f93-e9381757bb7b";
 
-var str1 = str.split("");
-// console.log(str1)
-var sum=0
-var str2 = str1.map(i =>{
 
-    if (!isNaN(i)){
-        console.log(i)
-        // console.log(typeof(i))
-        return sum = sum+ parseInt(i)
-    }
+// const str = "340e901b-7172-4ee0-8f93-e9381757bb7b";
 
-})
-console.log(sum)
+// var str1 = str.split("");
+// // console.log(str1)
+// var sum=0
+// var str2 = str1.map(i =>{
+
+//     if (!isNaN(i)){
+//         console.log(i)
+//         // console.log(typeof(i))
+//         return sum = sum+ parseInt(i)
+//     }
+
+// })
+// console.log(sum)
 
 

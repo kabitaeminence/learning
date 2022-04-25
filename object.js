@@ -51,58 +51,50 @@
 //     return this.name
 // }}
 // console.log(obj1.getName())
+
+
 // ----------------------------------------------------------remove vowels from array
 
-const array = ['a','b','c','d','e','i','j','k','m']
+// const array = ['a','b','c','d','e','i','j','k','m']
 
-const arr = []
+// const arr = []
 
-// for (let i = 0; i<array.length;i++){
-//     if (array.includes()){
-//         arr.push(array[i])
-//     }
+// var myArray=array.filter((data) => !['a','e','i','o','u'].includes(data));
+
+// console.log(myArray)
+
+
+// const person = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+//   };
+// for (x in person){
+//     console.log(person[x])
 // }
-// console.log(arr)
-
-// const arr1 = array.filter((data) => !
 
 
-var myArray=array.filter((data) => !['a','e','i','o','u'].includes(data));
-
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+const myArray = Object.values(person);
 console.log(myArray)
 
-// const arr1 = array.filter(array,i =>{
+var keys=['en_US','es_ES', 'pt_PT','fr_FR','de_DE','ja_JP','it_IT']
+var commonKeys=['en-*','es-*', 'pt-*','fr-*','de-*','ja-*','it-*', '*']
 
-//     if (array.includes("a","e",'i','o','u')){
+var i;
+var currentKey;
+var currentVal;
 
-//     }
-//     else{
-//         console.log(array[i])
-//     }
-// })
-
-
-// var i = 0;
-
-// while(i<array.length){
-//     if (array[i]!='a' && array[i]!='e' && array[i]!='i' && array[i]!='o' & array[i]!='u'){
-//         // console.log(array[i])
-//         arr.push(array[i])
-//     }
-//     i++
-// }
-// console.log(arr)
+var result = {}
 
 
-// function removevowels(array){
-//     let newArray = [];
-//     for (let i = 0;i<array.length;i++){
-//         if (array[i]!='a' && array[i] !='e' && array[i]!='i' && array[i]!='o' && array[i]!='u'){
-//             // str +=array[i]
-//             newArray.push(array[i])
-//         }
-//     }
-//     return newArray
-// }
-
-// console.log(removevowels(array))
+for (i = 0; i < keys.length; i++) {
+    currentKey = commonKeys[i];
+    currentVal = keys[i];
+    result[currentKey] = currentVal;    
+}

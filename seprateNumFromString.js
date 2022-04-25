@@ -13,3 +13,17 @@ var str2 = str1.map(i =>{
 
 })
 console.log(sum)
+
+
+// var str="ka12"
+// i=0
+// while (i<str.length){
+//     var a=Number(str[i])
+//     if (Number(a[i]==Number())){
+//         console.log(typeof(a[i]))
+//     }
+//     else{
+//         console.log(typeof(str[i]))
+//     }
+//     i++
+// }
